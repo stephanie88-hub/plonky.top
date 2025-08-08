@@ -12,17 +12,17 @@ const siteConfig = {
   metadata: {
     keywords: ["plonky", "ragdoll physics", "physics puzzle", "online game", "free game"],
     themeColor: "#ffffff",
-    manifestPath: "/assets/img/site.webmanifest",
+    manifestPath: "https://cdn.plonky.top/assets/img/site.webmanifest",
   },
   images: {
     icon: {
-      favicon: "/assets/img/favicon.ico",
-      favicon16: "/assets/img/favicon-16x16.png",
-      favicon32: "/assets/img/favicon-32x32.png",
-      apple: "/assets/img/apple-touch-icon.png",
-      // safari: "/assets/img/safari-pinned-tab.svg",
+      favicon: "https://cdn.plonky.top/assets/img/favicon.ico",
+      favicon16: "https://cdn.plonky.top/assets/img/favicon-16x16.png",
+      favicon32: "https://cdn.plonky.top/assets/img/favicon-32x32.png",
+      apple: "https://cdn.plonky.top/assets/img/apple-touch-icon.png",
+      // safari: "https://cdn.plonky.top/assets/img/safari-pinned-tab.svg",
     },
-    og: "/assets/img/plonky.png", // 可后续替换为plonky相关图片
+    og: "https://cdn.plonky.top/assets/img/plonky.png", // 可后续替换为plonky相关图片
   },
 };
 
