@@ -9,6 +9,19 @@ module.exports = {
   priority: 0.9,
   outDir: './public',
   generateIndexSitemap: false,  // 禁用索引 sitemap
+  // 排除未发布的游戏页面，只保留已发布的页面
+  exclude: [
+    '/basketball-bros-unblocked',
+    '/brainrot-clicker', 
+    '/cheese-chompers-3d',
+    '/crazy-chicken-3d',
+    '/crazy-cow-3d',
+    '/futbol-libre',
+    '/mutilate-a-doll-2',
+    '/pokemon-gamma-emerald',
+    '/sprunki-incredibox',
+    '/stickman-dismounting'
+  ],
   transform: async (config, path) => {
     let priority = 0.9;
     let changefreq = 'monthly';
