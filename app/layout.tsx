@@ -93,8 +93,24 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+        {/* Profitableratecpm Ad Scripts */}
+        <Script
+          type="text/javascript"
+          src="//pl27378372.profitableratecpm.com/b2/34/04/b23404d76e119e291e9b8a9df1095fe8.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          async
+          data-cfasync="false"
+          src="//pl27378395.profitableratecpm.com/a221db9ad922bd4ece4e82a02bb2899b/invoke.js"
+          strategy="afterInteractive"
+        />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        {/* Profitableratecpm Ad Container */}
+        <div id="container-a221db9ad922bd4ece4e82a02bb2899b"></div>
+      </body>
     </html>
   );
 }
