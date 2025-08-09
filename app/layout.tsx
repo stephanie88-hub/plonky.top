@@ -66,6 +66,8 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content={siteConfig.name} />
+        {/* Google AdSense */}
+        <meta name="google-adsense-account" content="ca-pub-9604681635305221" />
         {/* Google Analytics - 只在有GA ID时加载 */}
         {gaId && (
           <>
@@ -84,6 +86,13 @@ export default function RootLayout({
             </Script>
           </>
         )}
+        {/* Google AdSense Script */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9604681635305221"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
