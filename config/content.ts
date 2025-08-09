@@ -42,7 +42,7 @@ export const content = {
       title: "Games",
       links: [
         { text: "Plonky", href: "/" },
-        { text: "Short Life 2", href: "/short-life" },
+        { text: "Short Life 2", href: "/short-life-2" },
         { text: "Poor Eddie", href: "/poor-eddie" },
         { text: "Dreadhead Parkour", href: "/dreadhead-parkour" },
         { text: "Short Ride", href: "/short-ride" },

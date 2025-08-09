@@ -10,6 +10,9 @@
     "start": "next start",
     "lint": "next lint",
     "sitemap": "npm run clean-sitemap && next-sitemap",
+    "deploy-sitemap": "node scripts/deploy-sitemap.js",
+    "check-h1": "node scripts/check-h1-tags.js",
+    "deploy-all": "node scripts/deploy-all-fixes.js",
     "update-sitemap-date": "node scripts/update-sitemap.js",
     "convert-images": "node scripts/convert-images.js"
   },

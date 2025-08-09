@@ -34,12 +34,12 @@ export function GameSection({ content = defaultContent }: GameSectionProps) {
       )}
     >
       {layout.gameSection.isVisible.title && (
-        <h1 className={cn(
+        <h2 className={cn(
           theme.gameSection.typography.title,
           theme.gameSection.spacing.title
         )}>
           {content.gameSection.title}
-        </h1>
+        </h2>
       )}
 
       {/* 游戏容器 - 移除圆角 */}

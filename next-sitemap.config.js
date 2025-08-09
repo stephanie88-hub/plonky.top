@@ -46,6 +46,10 @@ module.exports = {
     }
   },
   robotsTxtOptions: {
+    // 添加robots.txt的注释信息
+    additionalSitemaps: [
+      `${siteConfig.url}/sitemap.xml`,
+    ],
     policies: [
       // 常规搜索引擎规则
       {
@@ -57,7 +61,13 @@ module.exports = {
           '/api/*',
           '/admin/*',
           '/_next/*',
-          '/static/*'
+          '/static/*',
+          '/cdn-cgi/*',
+          '/cdn-cgi/',
+          '/_cf/*',
+          '/_vercel/*',
+          '/temp/*',
+          '/tmp/*'
         ],
       },
 
@@ -127,9 +137,6 @@ module.exports = {
         disallow: '/',
         allow: ['/llms.txt', '/llms-full.txt'],
       },
-    ],
-    additionalSitemaps: [
-      `${siteConfig.url}/sitemap.xml`,
     ],
   },
 }

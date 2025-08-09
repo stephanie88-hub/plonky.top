@@ -36,10 +36,10 @@ export function GamePageTemplate({ gameConfig }: GamePageTemplateProps) {
             { label: gameConfig.content.gameSection?.title || gameConfig.metadata.title }
           ]} 
         />
-        {/* Add H1 title for the current game */}
-        <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 lg:mb-12">
+        {/* Game title - using h2 to avoid duplicate h1 tags */}
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 lg:mb-12">
           {gameConfig.content.gameSection?.title || gameConfig.metadata.title}
-        </h1>
+        </h2>
         <GameSection content={gameConfig.content} />
         <OtherGames
           games={getOtherGames()}
