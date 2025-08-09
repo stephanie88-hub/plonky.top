@@ -36,6 +36,6 @@ next-env.d.ts
 
 .vercel
 
-# sitemap
-/public/sitemap*.xml
-public/robots.txt
+# sitemap - 允许提交到版本控制
+# /public/sitemap*.xml
+# public/robots.txt
