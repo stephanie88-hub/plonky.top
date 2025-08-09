@@ -5,10 +5,10 @@ import { shortLifeContent } from "./content";
 
 export const metadata: Metadata = {
   title: 'Short Life 2 - Free Physics Ragdoll Game | Play Online Unblocked',
-  description: 'Play Short Life 2 online for free - the ultimate ragdoll physics obstacle course game! Master deadly traps, enhanced physics mechanics, and hilarious death animations. Short Life 2 features improved gameplay, creative level design, and mobile optimization. No download required, play instantly in your browser!',
+  description: 'Play Short Life 2 online for free - the ultimate ragdoll physics obstacle course game! Master deadly traps and enhanced physics mechanics.',
   openGraph: {
     title: 'Short Life 2 - Free Ragdoll Physics Game | Play Online',
-    description: 'Master Short Life 2 - the enhanced ragdoll physics adventure with deadly obstacles and hilarious gameplay. Play free online with improved mechanics and mobile support!',
+    description: 'Master Short Life 2 - the enhanced ragdoll physics adventure with deadly obstacles and hilarious gameplay.',
     type: 'website',
     url: `${siteConfig.url}/short-life-2`,
     siteName: siteConfig.name,
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Short Life 2",
-    description: "Experience Short Life 2, the ultimate ragdoll physics adventure with enhanced obstacle courses and improved gameplay mechanics. Navigate through deadly traps, master challenging puzzles, and enjoy hilarious death animations in this free browser-based game.",
+    description: "Experience Short Life 2, the ultimate ragdoll physics adventure with enhanced obstacle courses and improved gameplay mechanics.",
     url: "/short-life-2"
   },
   content: shortLifeContent

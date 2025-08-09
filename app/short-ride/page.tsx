@@ -5,10 +5,10 @@ import { shortRideContent } from "./content";
 
 export const metadata: Metadata = {
   title: 'Short Ride - Free Physics Bike Game | Play Online Unblocked',
-  description: 'Play Short Ride online for free - the ultimate ragdoll physics bike game! Master bike obstacles, enhanced physics mechanics, and fast-paced bike challenges. Short Ride features improved gameplay, creative level design, and mobile optimization. No download required, play instantly in your browser!',
+  description: 'Play Short Ride online for free - the ultimate ragdoll physics bike game! Master bike obstacles and enhanced physics mechanics.',
   openGraph: {
     title: 'Short Ride - Free Ragdoll Physics Bike Game | Play Online',
-    description: 'Master Short Ride - the enhanced ragdoll physics bike adventure with creative obstacles and fast-paced gameplay. Play free online with improved mechanics and mobile support!',
+    description: 'Master Short Ride - the enhanced ragdoll physics bike adventure with creative obstacles and fast-paced gameplay.',
     type: 'website',
     url: `${siteConfig.url}/short-ride`,
     siteName: siteConfig.name,
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Short Ride",
-    description: "Experience Short Ride, the ultimate ragdoll physics bike adventure with enhanced obstacle courses and improved gameplay mechanics. Navigate through creative obstacles, master challenging bike levels, and enjoy fast-paced physics interactions in this free browser-based game.",
+    description: "Experience Short Ride, the ultimate ragdoll physics bike adventure with enhanced obstacle courses and improved gameplay mechanics.",
     url: "/short-ride"
   },
   content: shortRideContent

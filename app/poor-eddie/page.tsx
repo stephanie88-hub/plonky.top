@@ -5,10 +5,10 @@ import { poorEddieContent } from "./content";
 
 export const metadata: Metadata = {
   title: 'Poor Eddie - Free Physics Puzzle Game | Play Online Unblocked',
-  description: 'Play Poor Eddie online for free - the ultimate ragdoll physics puzzle game! Master creative obstacles, enhanced physics mechanics, and hilarious puzzle challenges. Poor Eddie features improved gameplay, innovative puzzle design, and mobile optimization. No download required, play instantly in your browser!',
+  description: 'Play Poor Eddie online for free - the ultimate ragdoll physics puzzle game! Master creative obstacles and enhanced physics mechanics.',
   openGraph: {
     title: 'Poor Eddie - Free Ragdoll Physics Puzzle Game | Play Online',
-    description: 'Master Poor Eddie - the enhanced ragdoll physics puzzle adventure with creative obstacles and challenging gameplay. Play free online with improved mechanics and mobile support!',
+    description: 'Master Poor Eddie - the enhanced ragdoll physics puzzle adventure with creative obstacles and challenging gameplay.',
     type: 'website',
     url: `${siteConfig.url}/poor-eddie`,
     siteName: siteConfig.name,
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Poor Eddie",
-    description: "Experience Poor Eddie, the ultimate ragdoll physics puzzle adventure with enhanced obstacle courses and improved gameplay mechanics. Navigate through creative traps, master challenging puzzles, and enjoy hilarious physics interactions in this free browser-based game.",
+    description: "Experience Poor Eddie, the ultimate ragdoll physics puzzle adventure with enhanced obstacle courses and improved gameplay mechanics.",
     url: "/poor-eddie"
   },
   content: poorEddieContent

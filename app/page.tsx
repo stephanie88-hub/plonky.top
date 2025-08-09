@@ -5,7 +5,7 @@ export const metadata = {
     canonical: 'https://plonky.top/',
   },
   title: 'Plonky - Free Physics Puzzle Game | Play Online Unblocked',
-  description: 'Play this free physics puzzle game online - the ultimate ragdoll physics adventure! Master physics mechanics, solve creative puzzles, and conquer 50+ challenging levels. No download required, play instantly in your browser!',
+  description: 'Play this free physics puzzle game online - the ultimate ragdoll physics adventure! Master physics mechanics and solve creative puzzles.',
   openGraph: {
     title: 'Plonky - Free Physics Puzzle Game | Play Online',
     description: 'Master ragdoll physics in this ultimate puzzle adventure game. Solve creative challenges and conquer 50+ levels for free!',
